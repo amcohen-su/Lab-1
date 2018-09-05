@@ -7,14 +7,35 @@ html, body {
     height:60px;
     line-height:60px;
     padding: 0px 20px;
-    background-color: #fffff0
+    background-color:#d44500;
+    position:relative;
+    
 }
 
 h1 {
     text-align:left;
+    display:inline-block;
+    position:absolute;
+    margin: 0;
+    color: #fff
 }
 
 .list {
     text-align:right;
     list-style:none;
+    display:inline-block
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.list .item {
+    display:inline-block;
+    margin-left:20px;
+    color:#fff
+}
+
+.list .item a {
+    text-decoration:none;
+    color: #fff
 }
