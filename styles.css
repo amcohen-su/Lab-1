@@ -63,3 +63,11 @@ h1 {
 .main .content p, .main .sidebar p {
     margin: 20px;
 }
+
+.blog-post {
+    margin:10px;
+    background-color: #fffff0;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 10px;
+}
